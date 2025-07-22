@@ -1,5 +1,6 @@
 import React from "react";
 import GoalForm from "../components/GoalForm";
+import "../index.css";
 
 export default function AddGoal() {
   return (

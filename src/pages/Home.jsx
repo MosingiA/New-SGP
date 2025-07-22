@@ -3,6 +3,7 @@ import { fetchGoals, deleteGoal, updateGoal } from "../api";
 import Overview from "../components/Overview";
 import DepositForm from "../components/DepositForm";
 import GoalList from "../components/GoalList";
+import "../index.css";
 
 export default function Home() {
   const [goals, setGoals] = useState([]);

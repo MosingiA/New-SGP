@@ -22,7 +22,7 @@ export default function GoalItem({ goal, onDelete }) {
       </p>
        <button type="submit">Edit</button>
         <button type="submit">Deposit</button>
-        <button onClick={()=>onDelete(id)}>Delete</button>
+        <button id="delete" onClick={()=>onDelete(id)}>Delete</button>
     </div>
   );
 }

@@ -57,10 +57,16 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
+  transition: background-color 0.3s ease;
+  justify-content: space-between;
 }
 
 button:hover {
   background-color: #005fa3;
+}
+
+button #delete {
+  background-color: #e74c3c;
 }
 
 input, textarea {

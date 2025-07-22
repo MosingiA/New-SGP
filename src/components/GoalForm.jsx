@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { createGoal } from "../api";
+import "../index.css";
 
 export default function GoalForm() {
   const [form, setForm] = useState({ name:"", targetAmount:"", savedAmount:0, category:"", deadline:"", createdAt:new Date().toISOString().split("T")[0] });
