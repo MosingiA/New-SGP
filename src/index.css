@@ -45,7 +45,10 @@ nav a:hover {
   background-color: gray;
   border-radius: 40px;
 }
-
+:hover .goal-card {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+}
 button {
   background-color: #1e3c52;
   color: white;

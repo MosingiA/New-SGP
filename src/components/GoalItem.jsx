@@ -20,7 +20,9 @@ export default function GoalItem({ goal, onDelete }) {
         {warning && <span> ⚠️</span>}
         {overdue && <span> ❌ Overdue</span>}
       </p>
-      <button onClick={()=>onDelete(id)}>Delete</button>
+       <button type="submit">Edit</button>
+        <button type="submit">Deposit</button>
+        <button onClick={()=>onDelete(id)}>Delete</button>
     </div>
   );
 }
