@@ -21,7 +21,6 @@ export default function GoalItem({ goal, onDelete }) {
         {overdue && <span> ❌ Overdue</span>}
       </p>
        <button type="submit">Edit</button>
-        <button type="submit">Deposit</button>
         <button id="delete" onClick={()=>onDelete(id)}>Delete</button>
     </div>
   );

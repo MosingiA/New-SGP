@@ -80,6 +80,15 @@
       "category": "Home",
       "deadline": "2025-03-31",
       "createdAt": "2024-05-15"
+    },
+    {
+      "id": "8344",
+      "name": "Mamaa",
+      "targetAmount": "20000",
+      "savedAmount": 0,
+      "category": "spoil",
+      "deadline": "2025-05-12",
+      "createdAt": "2025-07-22"
     }
   ]
 }
