@@ -10,7 +10,7 @@ export default function App() {
       <header>
         <h1>SMART Goal Planner</h1>
         <nav>
-          <Link to="/">Home</Link> || <Link to="/add">Add Goal</Link>
+          <Link to="/">Home</Link>     <Link to="/add">Add Goal</Link>
         </nav>
       </header>
       <main>

@@ -8,6 +8,7 @@ export default function GoalItem({ goal, onDelete }) {
   const warning = daysLeft <= 30 && savedAmount < targetAmount;
   const overdue = daysLeft < 0 && savedAmount < targetAmount;
 
+
   return (
     <div style={{border:"1px solid #ccc", padding:10, margin:10}}>
       <h3>{name}</h3>
@@ -21,6 +22,7 @@ export default function GoalItem({ goal, onDelete }) {
         {overdue && <span> ❌ Overdue</span>}
       </p>
        <button type="submit">Edit</button>
+       <br></br>
         <button id="delete" onClick={()=>onDelete(id)}>Delete</button>
     </div>
   );
